@@ -1,0 +1,526 @@
+
+.navbar-brand img{
+    width:44%;
+}
+
+
+@media(max-width:600px){
+    .navbar-brand {
+        width:45%;
+    }
+
+   }
+       .inner{
+  color: #fff;
+  opacity: 0;
+  z-index: 100;
+}
+.item:hover .inner{
+  opacity: 1;
+}
+
+.inner-head{
+  width: 100%;
+  color: #fff;
+  top: 80%;
+  text-align: center;
+  z-index: 100;
+}
+
+.inner p{
+  padding-top: 35%;
+   padding-left: 15px;
+   padding-right: 18px;
+}
+
+.item:hover p{
+  padding-top: 50%;
+  transition: all .4s ease-in;
+}
+
+.border-btm{
+  width: 100%;
+  content: '';
+}
+
+.null-div{
+  content: '';
+  width: 100%;
+  height: 350px;
+  bottom: 0;
+  opacity: 0;
+}
+
+.item:hover .null-div{
+  height:100%;
+  opacity: 1;
+  transition: all .4s ease-in;
+}
+.border-1{
+  border-bottom: 13px solid  rgb(239, 91, 91);
+}
+
+.border-2{
+  border-bottom: 13px solid  rgb(23, 104, 38);
+}
+
+.border-3{
+  border-bottom: 13px solid  red;
+}
+
+.border-4{
+  border-bottom: 13px solid #337ab7;
+}
+
+.border-5{
+  border-bottom: 13px solid rgb(204, 153, 51);
+}
+
+.border-6{
+  border-bottom: 13px solid rgb(124, 72, 0);;
+}
+
+.null-div-1{
+  background-color: rgba(239, 91, 91,.8);
+}
+
+.null-div-2{
+  background-color:rgba(23, 104, 38, 0.8);
+}
+
+.null-div-3{
+  background-color: rgba(204, 102, 0, .8);
+}
+
+.null-div-4{
+  background-color: rgba(47, 129, 201,.6);
+}
+
+.null-div-5{
+  background-color: rgba(204, 153, 51, .8);;
+}
+
+.null-div-6{
+  background-color: rgba(124, 72, 0, .8);;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+   color: #fff;
+   border: none;
+   font-size:40px ;
+   width: 40px;
+   background-color: rgba(228, 218, 218,.4);
+}
+
+.owl-prev,
+.owl-next{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+.owl-prev{
+   left: 0;
+}
+
+.owl-next{
+   right: 0;
+}
+
+.explore-btn{
+  border: none;
+  padding: 7px 15px;
+  background-color: #036;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* photo gallery */
+
+.photo-galary .photo{
+  background-color: rgba(0, 0, 0,.5);
+  bottom: 0;
+  color: #fff;
+}
+
+.photo-galary .photo h5{
+  margin-top: 8px;
+}
+
+/* Connect with us */
+
+.connect-us .social-media-icons{
+  list-style-type: none;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.connect-us .social-media-icons .list-item{
+  width: 80px;
+  padding: 18px 0;
+  text-align: center;
+}
+
+.connect-us .social-media-icons .item-1{
+  background-color: red;
+
+}
+
+.connect-us .social-media-icons .item-2{
+  background-color: #3b5999;
+}
+
+.connect-us .social-media-icons .item-3{
+  background-color:#27aae1;
+}
+
+.connect-us .social-media-icons .item-4{
+  background-color: #5280a5;
+}
+
+.connect-us .social-media-icons .item-5{
+  background-color:#189d0e;
+}
+
+.connect-us .social-media-icons .item-6{
+  background-color:red;
+}
+
+.connect-us .social-media-icons .item-7{
+  background-color:#0e76a8;
+}
+
+.connect-us .container hr{
+  color:  rgb(148, 147, 147);;
+}
+
+/* responsive carousel */
+.carousel-1{
+  position:relative;
+  top:165px;
+}
+.experience{
+  margin-top:170px;
+}
+.marque{
+ position:absolute;
+ top:0px;
+ left:0px;
+ z-index:100;
+ right:0px;
+}
+@media (max-width:1220px){
+  .marque{
+      top:20px;
+  }
+  .carousel-1{
+  position:relative;
+  top:200px;
+  }
+ .experience{
+  margin-top:210px;
+  }
+  .carousel-caption{
+      position: absolute;
+      top: 190px;
+  }
+
+  .carousel-item h6{
+      background-color: orange;
+      display: inline-block;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 30px;
+      border-radius: 8px;
+      animation: btm-to-tp 1s ease-in  forwards;
+      opacity: 0;
+  }
+
+  .carousel-item h1{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      animation: btm-to-tp-2 1s ease-in .3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item h2{
+      animation: btm-to-tp-3 1s ease-in .7s forwards;
+      opacity: 0;
+      font-size: 40px;
+  }
+
+  .carousel-item h3{
+      animation: btm-to-tp-5 1s ease-in 1s forwards;
+      opacity: 0;
+  }
+
+  .carousel-item button{
+      padding: 18px 30px;
+      outline: none;
+      border: none;
+      font-weight: bold;
+      animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item .btn-2{
+      background-color: #fff;
+      color: black;
+  }
+  .carousel-item .img-2{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      animation: btm-to-tp-6 1s ease-in 2s forwards;
+      opacity: 0;
+      width: 360px;
+  }
+
+}
+@media (max-width:800px){
+  .marque{
+      top:20px;
+  }
+  .carousel-caption{
+      position: absolute;
+      top: 100px;
+  }
+
+  .carousel-item h6{
+      background-color: orange;
+      display: inline-block;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 25px;
+      border-radius: 8px;
+      animation: btm-to-tp 1s ease-in  forwards;
+      opacity: 0;
+  }
+
+  .carousel-item h1{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      animation: btm-to-tp-2 1s ease-in .3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item h2{
+      animation: btm-to-tp-3 1s ease-in .7s forwards;
+      opacity: 0;
+      font-size: 30px;
+  }
+
+  .carousel-item h3{
+      animation: btm-to-tp-5 1s ease-in 1s forwards;
+      opacity: 0;
+  }
+
+  .carousel-item button{
+      padding: 18px 24px;
+      outline: none;
+      border: none;
+      font-weight: bold;
+      animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item .btn-2{
+      background-color: #fff;
+      color: black;
+  }
+  .carousel-item .img-2{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      animation: btm-to-tp-6 1s ease-in 2s forwards;
+      opacity: 0;
+      width: 300px;
+  }
+
+}
+@media (max-width:500px){
+  .carousel-caption{
+      position: absolute;
+      top: 30px;
+  }
+
+  .carousel-item h6{
+      background-color: orange;
+      display: inline-block;
+      color: #fff;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 8px;
+      animation: btm-to-tp 1s ease-in  forwards;
+      opacity: 0;
+  }
+
+  .carousel-item h1{
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      animation: btm-to-tp-2 1s ease-in .3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item h2{
+      animation: btm-to-tp-3 1s ease-in .7s forwards;
+      opacity: 0;
+      font-size: 15px;
+  }
+
+  .carousel-item h3{
+      animation: btm-to-tp-5 1s ease-in 1s forwards;
+      opacity: 0;
+  }
+
+  .carousel-item button{
+      padding: 10px 15px;
+      outline: none;
+      border: none;
+      font-weight: bold;
+      animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+      opacity: 0;
+
+  }
+
+  .carousel-item .btn-2{
+      background-color: #fff;
+      color: black;
+  }
+  .carousel-item .img-2{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      animation: btm-to-tp-6 1s ease-in 2s forwards;
+      opacity: 0;
+      width: 300px;
+  }
+  }
+
+  /* card */
+  .card:hover{
+      background-color:orange;
+      box-shadow:0px 0px 16px rgba(0,0,0,0.5);
+  }
+
+  /* Modal */
+
+         /* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index:500; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: auto; /* Center the modal */
+padding: 20px;
+border: 1px solid #888;
+width: 30%; /* Could be more or less, depending on screen size */
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+ box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+color: #aaa;
+position:absolute;
+right:15px;
+top:10px;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+/* Blur the background when the modal is open */
+body.modal-open {
+overflow: hidden;
+}
+.modal form{
+padding: 20px;
+
+}
+
+.modal input{
+width: 100%;
+margin-bottom: 20px;
+height: 45px;
+border: 1px solid gray;
+border-radius: 5px;
+font-size: 18px;
+padding-left: 10px;
+}
+.modal select{
+width: 103%;
+margin-bottom: 20px;
+height: 45px;
+border: 1px solid gray;
+border-radius: 5px;
+font-size: 18px;
+padding-left: 10px;
+}
+
+.modal input:focus{
+outline: none;
+}
+
+.modal label{
+text-align: start;
+font-size: 21px;
+font-weight: bold;
+}
+.modal h2{
+text-align: center;
+margin-top:25px;
+}
+.modal form input[type="submit"]{
+width: 40%;
+background-color: orange;
+border: none;
+border-radius: 5px;
+color:black;
+font-size: 20px;
+font-weight: bold;
+height: 40px;
+margin-left: 30%;
+}
+@media (max-width:1300px){
+.modal-content {
+  width:50%;
+}
+}
+@media (max-width:550px){
+.modal-content {
+  width:80%;
+}
+}
